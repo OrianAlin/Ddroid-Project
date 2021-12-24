@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+/*CSS for HEADER Start HERE*/
+header {
+  width: 100%;
+  height: 115px;
+  background: #003c55;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.top-text {
+  position: relative;
+  width: 426px;
+  height: 65px;
+  font-size: 48px;
+  color: #f4f5f8;
+  right: 700px;
+  top: 27;
+}
+img {
+  left: 134px;
+  position: relative;
+}
+/*CSS for HEADER END HERE*/
+.text {
+  position: relative;
+  left: 470px;
+  background: #f4f5f8;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.center-text {
+  font: normal normal bold 48px/65px Open Sans;
+  letter-spacing: 0px;
+  color: #003c55;
+}
+/* CSS for FOOTER START HERE */
+footer {
+  background: #707070;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #707070;
+}
+.footer-text {
+  padding: 25px;
+  color: white;
+}
+/* CSS for FOOTER ENDS HERE */

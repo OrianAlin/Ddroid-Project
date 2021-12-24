@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* CSS for HEADER START HERE */
+header {
+  width: 100%;
+  height: 115px;
+  background: #003c55;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.top-text {
+  position: relative;
+  width: 426px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  top: 27px;
+  font-size: 48px;
+  color: #f4f5f8;
+  right: 70px;
+}
+img {
+  left: 134px;
+  position: relative;
+}
+.text-button {
+  font-weight: bold;
+  font-size: 17px;
+  color: #003c55;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+.top-button {
+  background: #ffe000;
+  width: 123px;
+  height: 31px;
+  position: relative;
+  top: 42px;
+  box-shadow: 0px 8px 6px #00000029;
+  border: 1px solid #707070;
+  opacity: 1;
+  right: 120px;
+  cursor: pointer;
+}
+/* CSS for HEADER ENDS HERE */
+/* CSS for MIDDLE START HERE */
+.center-container {
+  display: flex;
+  position: relative;
+  left: 320px;
+  width: 65%;
+  height: 750px;
+}
+.pages-image {
+  width: 300px;
+  background: #f4f5f8;
+  padding: 10px;
+}
+.const-image {
+  width: 600px;
+  background: #f4f5f8;
+  padding: 10px;
+}
+.center-button {
+  background: #ffe000;
+  width: 260px;
+  height: 31px;
+  box-shadow: 0px 8px 6px #00000029;
+  border: 1px solid #707070;
+  opacity: 1;
+  position: absolute;
+  top: 80%;
+  left: 33.5%;
+  cursor: pointer;
+}
+/* CSS for MIDDLE ENDS HERE */
+/* CSS for FOOTER START HERE */
+footer {
+  background: #707070;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #707070;
+}
+.footer-text {
+  padding: 25px;
+  color: white;
+}
+/* CSS for FOOTER ENDS HERE */

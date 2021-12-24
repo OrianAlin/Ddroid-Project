@@ -1,0 +1,183 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/Second-Page/style.css" />
+  </head>
+  <!-- HEADER CODE START HERE -->
+  <header>
+    <div class="container">
+      <a href="/First-Page/index.html">
+        <img src="/First-Page/images/ddroidd_logo.svg" alt="" />
+      </a>
+      <h1 class="top-text">Winter Internship</h1>
+    </div>
+  </header>
+  <!-- HEADER CODE END HERE -->
+  <body>
+    <!--MIIDLE CODE Start Here-->
+    <section>
+      <form id="myForm" action="/Third-Page/index.html" method="GET">
+        <div class="forms-container">
+          <h1 class="form-text">Application Form</h1>
+
+          <br />
+          <br />
+          <!-- Last and First Name Form -->
+          <div class="name-form">
+            <div class="firstname-div">
+              <label for="firstName"
+                ><b>First Name:</b><b class="star">*</b></label
+              >
+              <br />
+              <input
+                class="firstname-input"
+                type="text"
+                placeholder=" First Name"
+                required
+              />
+            </div>
+            <div class="lastname-div">
+              <label for="lastName"
+                ><b>Last Name:</b><b class="star">*</b></label
+              >
+              <br />
+
+              <input
+                class="lastname-input"
+                type="text"
+                placeholder=" Last Name"
+                required
+              />
+            </div>
+          </div>
+          <!-- Last and First Name Form -->
+          <br />
+          <br />
+          <br />
+          <!-- Adress Form -->
+          <h2 class="adress-text">Address</h2>
+          <br />
+          <label for="address1"
+            ><b>Address Line 1:</b><b class="star">*</b></label
+          >
+          <br />
+          <input
+            type="text"
+            class="address1-input"
+            placeholder=" Street name & number"
+            required
+          />
+          <br />
+          <br />
+          <label for="address2"
+            ><b class="address2-text">Address Line 2:</b></label
+          >
+          <br />
+          <input
+            class="address2-input"
+            type="text"
+            placeholder=" Suite, apartment"
+          />
+          <!-- Adress Form -->
+          <!--Location Form-->
+
+          <div class="location-form">
+            <div class="city">
+              <label for="city"><b>City:</b><b class="star">*</b></label>
+              <br />
+              <input
+                class="city-input"
+                type="text"
+                placeholder=" City"
+                required
+              />
+            </div>
+
+            <div class="state">
+              <label for="state"><b>State:</b></label
+              ><b class="star">*</b>
+              <br />
+              <input
+                class="state-input"
+                list="states"
+                name="state"
+                id="state"
+                placeholder=" State"
+                required
+              />
+              <datalist id="states">
+                <option value="Romania"></option>
+                <option value="England"></option>
+                <option value="Germany"></option>
+                <option value="Spain"></option>
+                <option value="Italy"></option>
+              </datalist>
+            </div>
+            <div class="zipcode">
+              <label for="zipCode"><b>Zip code:</b><b class="star">*</b></label>
+              <br />
+              <input
+                class="zipcode-input"
+                type="text"
+                placeholder=" Zip code"
+                required
+              />
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <!--Location Form-->
+          <!-- Contact Form -->
+          <h1 class="contact-text">Contact Information</h1>
+          <br />
+          <div class="contact-form">
+            <div class="phone">
+              <label for="phone"
+                ><b>Phone Number:</b><b class="star">*</b></label
+              >
+              <br />
+              <input
+                class="phone-input"
+                type="text"
+                placeholder="555-5555"
+                required
+              />
+            </div>
+            <div class="email">
+              <label for="email"
+                ><b>Email address:</b><b class="star">*</b></label
+              >
+              <br />
+              <input
+                class="email-input"
+                type="text"
+                placeholder="john@doe.com"
+                required
+              />
+              <br />
+            </div>
+          </div>
+          <button
+            id="registerbtn"
+            type="submit"
+            onclick="myFunction()"
+            class="registerbtn"
+          >
+            <h1 class="text-button">Join Us</h1>
+          </button>
+
+          <!-- Contact Form -->
+        </div>
+      </form>
+    </section>
+    <!--MIIDLE CODE END Here-->
+    <!-- FOOTER CODE Start HERE -->
+    <footer>
+      <h1 class="footer-text">Come to the dark side... we have 🍪</h1>
+    </footer>
+    <!-- FOOTER CODE END HERE -->
+
+    <script></script>
+  </body>
+  <script src="/Second-Page/index.js"></script>
+</html>

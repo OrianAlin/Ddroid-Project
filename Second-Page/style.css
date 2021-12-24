@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* CSS for HEADER START HERE */
+header {
+  width: 100%;
+  height: 115px;
+  background: #003c55;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.top-text {
+  position: relative;
+  width: 426px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  top: 27px;
+  font-size: 48px;
+  color: #f4f5f8;
+  right: 700px;
+}
+img {
+  left: 134px;
+  position: relative;
+}
+/* CSS for HEADER ENDS HERE */
+/* CSS for MIDDLE START HERE */
+.star {
+  color: #fc0000;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background: #f4f5f8;
+  display: inline-block;
+  position: relative;
+  padding: 180px;
+  height: 450px;
+}
+.form-text {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  color: #003c55;
+  font-size: 30px;
+}
+.adress-text {
+  color: #003c55;
+}
+.contact-text {
+  color: #003c55;
+}
+b {
+  color: #003c55;
+}
+.name-form {
+  display: flex;
+}
+.firstname-input {
+  width: 393px;
+  margin-right: 20px;
+  margin-top: 5px;
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  padding: 4px;
+}
+.lastname-input {
+  width: 393px;
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin-top: 5px;
+  padding: 4px;
+}
+
+.address1-input {
+  width: 100%;
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin-top: 5px;
+  padding: 4px;
+}
+.address2-input {
+  width: 100%;
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin-top: 5px;
+  padding: 4px;
+}
+.location-form {
+  display: flex;
+  margin-top: 15px;
+}
+.city-input {
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin: 5px 20px 0px 0px;
+  padding: 4px;
+  width: 255px;
+}
+.state-input {
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin-top: 5px;
+  padding: 4px;
+  width: 255px;
+}
+.zipcode-input {
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin: 5px 0px 0px 20px;
+  padding: 4px;
+  width: 255px;
+}
+.contact-form {
+  display: flex;
+}
+.phone-input {
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin-top: 5px;
+  padding: 4px;
+  width: 390px;
+}
+.email-input {
+  box-shadow: 0px 8px 6px #00000029;
+  border: none;
+  margin-top: 5px;
+  padding: 4px;
+  width: 390px;
+}
+.email {
+  margin-left: 26px;
+}
+.registerbtn {
+  position: relative;
+  background: #ffe000;
+  width: 260px;
+  height: 31px;
+  box-shadow: 0px 8px 6px #00000029;
+  border: 1px solid #707070;
+  opacity: 1;
+  cursor: pointer;
+  position: absolute;
+  right: 180px;
+  margin: 40px 0px 0px 0px;
+}
+.text-button {
+  font-weight: bold;
+  font-size: 17px;
+  color: #003c55;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+/*CSS for MIDDLE ENDS HERE */
+/* CSS for FOOTER START HERE */
+footer {
+  background: #707070;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #707070;
+}
+.footer-text {
+  padding: 25px;
+  color: white;
+}
+/* CSS for FOOTER ENDS HERE */
